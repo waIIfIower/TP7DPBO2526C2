@@ -16,12 +16,6 @@ Website **Competitive Programming Tracker** untuk menyimpan ladder latihan, daft
 - Menolak soal dengan judul dan platform yang sama melalui validasi aplikasi.
 - Menggunakan foreign key dengan penghapusan berantai untuk menjaga konsistensi data.
 
-## Teknologi dan kebutuhan
-
-- PHP 8.0 atau lebih baru dengan ekstensi PDO MySQL (`pdo_mysql`).
-- MySQL atau MariaDB; dapat dijalankan melalui XAMPP atau Laragon.
-- Apache atau PHP built-in server dan browser web.
-
 ## Struktur folder
 
 ```text
@@ -159,10 +153,4 @@ Jika query pemeriksaan menemukan duplikat, tinjau dan rapikan record tersebut te
 
 ## Dokumentasi pengujian (screen record)
 
-Rekam pengujian tambah, baca, edit, dan hapus untuk **kategori, soal, dan submission**, lalu ganti placeholder berikut dengan tautan video yang dapat diakses pemeriksa:
-
-**Tautan screen record:** `[tempel tautan video di sini]`
-
-## Repository pengumpulan
-
-Unggah seluruh folder proyek, termasuk `database/db_cptracker.sql` dan README ini, ke repository GitHub publik dengan format nama `TP7DPBO2526C..` sesuai kelas/kelompok. Setelah repository publik dan screen record siap, kirim tautan repository melalui form pengumpulan yang diberikan pada instruksi tugas.
+https://youtu.be/Vt8grpBhwpg
