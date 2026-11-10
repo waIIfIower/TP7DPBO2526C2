@@ -103,24 +103,6 @@ erDiagram
 
 Alur relasi data saat penggunaan adalah **buat kategori → tambahkan soal ke kategori → catat submission untuk soal**. Kategori perlu dibuat sebelum soal, dan soal perlu tersedia sebelum submission.
 
-## Instalasi dan menjalankan aplikasi
-
-1. Pastikan XAMPP/Laragon memiliki PHP 8+, MySQL/MariaDB, dan ekstensi PDO MySQL aktif.
-2. Salin folder proyek ke direktori web server, misalnya `C:\xampp\htdocs\CPTracker` pada XAMPP.
-3. Jalankan Apache dan MySQL dari control panel.
-4. Buka phpMyAdmin, pilih database `db_cptracker` atau buat database tersebut, lalu impor `database/db_cptracker.sql`.
-   - File SQL adalah ekspor database proyek dan berisi definisi tiga tabel, relasi, serta data yang diekspor.
-   - Jika mengimpor ke database yang sudah berisi tabel, buat cadangan dahulu. Dump ekspor dapat berisi perintah pembuatan ulang tabel.
-5. Buka `config/database.php`. Nilai bawaan adalah host `localhost`, database `db_cptracker`, username `root`, dan password kosong. Sesuaikan dengan konfigurasi MySQL lokal jika berbeda.
-6. Buka aplikasi melalui `http://localhost/CPTracker/`.
-
-Jika menggunakan PHP built-in server, jalankan perintah dari direktori proyek:
-
-```bash
-php -S localhost:8000
-```
-
-Lalu buka `http://localhost:8000/` di browser. MySQL/MariaDB tetap harus berjalan.
 
 ## Cara mencoba CRUD
 
